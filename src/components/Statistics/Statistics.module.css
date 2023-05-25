@@ -1,0 +1,28 @@
+.stat__list {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.stat__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  font-weight: 600;
+}
+
+.stat__total {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+  justify-content: space-evenly;
+  font-weight: 700;
+}
+
+.stat_total__item {
+  width: auto;
+}

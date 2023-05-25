@@ -1,0 +1,10 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(148, 195, 147);
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px;
+}

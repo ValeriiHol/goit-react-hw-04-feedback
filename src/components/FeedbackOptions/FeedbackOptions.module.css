@@ -1,0 +1,32 @@
+.button__list {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 40px;
+}
+
+.button {
+  padding: 12px 16px;
+  border-radius: 4px;
+  width: 100px;
+  font-size: 20px;
+  color: white;
+  outline: none;
+  border: none;
+  transition: box-shadow ease-in-out 320ms;
+}
+
+.button:hover {
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
+}
+
+.good {
+  background-color: rgb(32, 149, 36);
+}
+
+.neutral {
+  background-color: rgba(81, 81, 107, 0.781);
+}
+
+.bad {
+  background-color: rgb(11, 3, 3);
+}
